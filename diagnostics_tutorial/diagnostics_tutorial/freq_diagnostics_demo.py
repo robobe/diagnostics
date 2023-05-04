@@ -1,6 +1,8 @@
+
 import rclpy
+from diagnostic_updater import (FrequencyStatusParam,
+                                HeaderlessTopicDiagnostic, Updater)
 from rclpy.node import Node
-from diagnostic_updater import HeaderlessTopicDiagnostic, FrequencyStatusParam, Updater
 
 
 class MyNode(Node):
